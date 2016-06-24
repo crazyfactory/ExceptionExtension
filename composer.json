@@ -1,7 +1,7 @@
 {
 
 	"name": "crazyfactory/phpunit-exceptions",
-	"minimum-stability": "dev",
+	"minimum-stability": "stable",
 	"description": "",
 	"type": "library",
 	"keywords": [],
