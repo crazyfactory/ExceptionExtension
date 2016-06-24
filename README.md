@@ -1,2 +1,2 @@
 # assertexceptionthrown
-PHPUnit ?Extension providing asssertExceptionThrown(Function, ExceptionClass, Message))
+PHPUnit Extension providing asssertExceptionThrown(Function, ExceptionClass, Message))
