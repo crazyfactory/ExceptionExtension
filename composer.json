@@ -1,6 +1,7 @@
 {
 
 	"name": "crazyfactory/phpunit-exceptions",
+	"minimum-stability": "dev",
 	"description": "",
 	"type": "library",
 	"keywords": [],
@@ -26,6 +27,7 @@
 	},
 
 	"require": {
+		"crazyfactory/phpunit-exceptions": "dev-master",
 		"php": ">=5.4.0"
 	},
 
