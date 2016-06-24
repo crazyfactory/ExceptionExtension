@@ -27,7 +27,6 @@
 	},
 
 	"require": {
-		"crazyfactory/phpunit-exceptions": "dev-master",
 		"php": ">=5.4.0"
 	},
 
