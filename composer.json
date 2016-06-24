@@ -39,5 +39,4 @@
 		"csfix": "test/bin/phpcbf.bash",
 		"cscheck": "test/bin/phpcs.bash emacs"
 	}
-	
 }
