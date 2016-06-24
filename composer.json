@@ -1,10 +1,10 @@
 {
 
-	"name": "crazyfactory/PHPUnitExtensions",
+	"name": "crazyfactory/phpunit-exceptions",
 	"description": "",
 	"type": "library",
 	"keywords": [],
-	"homepage": "https://github.com/crazyfactory/php-PHPUnitExceptions",
+	"homepage": "https://github.com/crazyfactory/php-phpunit-exceptions",
 	"license": "GPL-3.0+",
 	"authors": [
 		{
