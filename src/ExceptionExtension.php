@@ -1,8 +1,8 @@
 <?
 
-namespace CrazyFactory\PHPUnit;
+namespace CrazyFactory\PHPUnitExtensions;
 
-abstract class ExtendedTestCase extends \PHPUnit_Framework_TestCase
+abstract class ExceptionExtension extends \PHPUnit_Framework_TestCase
 {
 	protected function assertExceptionThrown($fn, $exceptionClass, $message = null)
 	{
