@@ -13,8 +13,6 @@ class CrazyTestCaseTest extends CrazyTestCase
         $this->assertExceptionThrown(function () {
             throw new \Exception();
         }, \Exception::class);
-
-        $this->assertTrue(true);
     }
 
     private static function getFunc(string $method)
