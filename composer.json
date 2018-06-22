@@ -35,11 +35,5 @@
         "test": "phpunit -c phpunit.xml",
         "lint": "phpcs --standard=phpcs.xml",
         "lint:fix": "phpcbf --standard=phpcs.xml"
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "platform": {
-            "php": "7.2"
-        }
     }
 }

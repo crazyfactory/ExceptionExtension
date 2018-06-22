@@ -5,6 +5,6 @@
     <rule ref="CrazyFactory" />
 
     <file>./src/</file>
-    <file>./tests</file>
+    <file>./tests/</file>
 
 </ruleset>

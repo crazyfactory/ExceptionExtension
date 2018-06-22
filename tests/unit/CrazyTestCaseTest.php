@@ -1,6 +1,6 @@
 <?php
 
-namespace CrazyFactory\MagicModels\Test;
+namespace CrazyFactory\PHPUnitExtensions\Tests;
 
 use CrazyFactory\PHPUnitExtensions\CrazyTestCase;
 use CrazyFactory\PHPUnitExtensions\TestCaseHelper;
@@ -15,6 +15,18 @@ class CrazyTestCaseTest extends CrazyTestCase
         }, \Exception::class);
     }
 
+    private static function fn1(int $int)
+    {
+    }
+
+    private static function fn2(?int $int)
+    {
+    }
+
+    private static function fn3($int = 0)
+    {
+    }
+
     private static function getFunc(string $method)
     {
         return TestCaseHelper::getParam(
@@ -24,19 +36,11 @@ class CrazyTestCaseTest extends CrazyTestCase
         );
     }
 
-    private static function fn1(int $int)
-    {
-    }
-
     public function testAssertParamIsOfType()
     {
         $param = self::getFunc('fn1');
 
         $this->assertParamIsOfType($param, 'int');
-    }
-
-    private static function fn2(?int $int)
-    {
     }
 
     public function testAssertParamIsNullable()
@@ -46,35 +50,23 @@ class CrazyTestCaseTest extends CrazyTestCase
         $this->assertParamIsNullable($param);
     }
 
-    private static function fn3(int $int)
-    {
-    }
-
     public function testAssertParamIsNotNullable()
     {
-        $param = self::getFunc('fn3');
+        $param = self::getFunc('fn1');
 
         $this->assertParamIsNotNullable($param);
     }
 
-    private static function fn4($int = 0)
-    {
-    }
-
     public function testAssertParamIsOptional()
     {
-        $param = self::getFunc('fn4');
+        $param = self::getFunc('fn3');
 
         $this->assertParamIsOptional($param);
     }
 
-    private static function fn5($int)
-    {
-    }
-
     public function testAssertParamIsNotOptional()
     {
-        $param = self::getFunc('fn5');
+        $param = self::getFunc('fn1');
 
         $this->assertParamIsNotOptional($param);
     }

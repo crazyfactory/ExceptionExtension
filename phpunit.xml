@@ -1,6 +1,5 @@
 <phpunit bootstrap="vendor/autoload.php"
          backupGlobals="false"
-         forceCoversAnnotation="true"
          backupStaticAttributes="false"
          colors="true"
          verbose="true"
