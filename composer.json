@@ -1,6 +1,6 @@
 {
     "name": "crazyfactory/phpunit-extensions",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "description": "",
     "type": "library",
     "keywords": [],
