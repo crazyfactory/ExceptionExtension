@@ -11,14 +11,10 @@
 
 ```json
 {
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/crazyfactory/php-phpunit-extensions"
-        }
-    ],
-    "require": {
-        "crazyfactory/phpunit-extensions": "dev-master"
-    }
+ "require-dev": {
+    "phpunit/phpunit": "^6.0", 
+    "phpunit/phpunit-selenium": "^4.0", 
+    "crazyfactory/phpunit-extensions": "^0.1" 
+  }
 }
 ```
